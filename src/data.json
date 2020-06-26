@@ -1,9 +1,0 @@
-[ {
-  "dateAdded" : "22/12/2019",
-  "goalname" : "Guitar",
-  "id" : 1,
-  "scheduledAt" : "20:12:00",
-  "timeperiod" : 10
-},
-{"dateAdded":"7/2/2020","goalname":"Excercise","id":2,"scheduledAt":"10:12:00","timeperiod":20}
- ]

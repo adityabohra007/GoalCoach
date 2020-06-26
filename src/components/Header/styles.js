@@ -28,21 +28,3 @@ font-size: 10px; margin-bottom: 0px;
 
 `;
 
-export const StyledNav=styled.nav`
-
-ul{
-display:inline-flex;
-    list-style:none;
-    li{
-        a{
-        padding:5px 10px;
-        margin:5px;
-background: #1b6ca8;
-color: white;
-border-radius: 5px;
-padding: 10px;
-font-weight: 600;
-        }
-    }
-    }
-`

@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 import Box from '@material-ui/core/Box';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import Button from '@material-ui/core/Button';
 export const StyledTable=styled.div`
 width:80%;
 margin:auto;
@@ -82,17 +80,5 @@ display: flex;
 }
 }
 `
-export const StyledBtn=styled(Button)`
-background:gray;
-// border-radius:10px;
-// padding:10px 15px;
-// width:auto;
-// cursor:pointer;
-// color:white !important;
-// font-weight:600;
-// background:#436f8a;
-// border-radius:4px;
-// &:active{
-// box-shadow:unset;
-// }
-`
+
+

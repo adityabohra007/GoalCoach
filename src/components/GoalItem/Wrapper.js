@@ -18,7 +18,11 @@ const Wrapper = props => {
 
       try {
         props.firebase.db.ref('status').on('value', snap => {
-          setGoalStatus(snap.val());
+            var toList=Object.entries(snap.val())
+            toList=toList.map(data=>data[1])
+            console.log(toList)
+
+          setGoalStatus(toList);
           setGoalDataLoading(false);
         });
       } catch {
