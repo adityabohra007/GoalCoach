@@ -1,5 +1,6 @@
 import React from 'react';
 import GoalItem from './../GoalItem';
+import GoalAdd from './../GoalAdd';
 import Header from './../Header';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import {StyledHeader, StyledNav} from './styles.js';
@@ -18,6 +19,10 @@ const Component = props => {
                 <li>
                   <Link to="/report">Report</Link>
                 </li>
+               <li>
+                  <Link to="/goal/add">Add Goal</Link>
+                </li>
+
                 <li>
                   <Link to="/">Goal Update</Link>
                 </li>
@@ -29,10 +34,14 @@ const Component = props => {
             <Route path="/report">
               <GoalItem {...props} />
             </Route>
+            <Route path="/goal/add">
+                <GoalAdd {...props}/>
+           </Route>
+
             <Route path="/">
               <GoalUpdate />
             </Route>
-          </Switch>
+                     </Switch>
         </div>
       </Router>
     </>

@@ -2,7 +2,7 @@ import React from 'react';
 import Wrapper from './Wrapper';
 import  { FirebaseContext } from '../Firebase';
 
-const GoalAdd=()=>{
+const GoalAdd=(props)=>{
 
 
 
